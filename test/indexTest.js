@@ -7,6 +7,7 @@ describe("index.js", () => {
     expect(divide()).to.equal(20)
   })
 
+
   it("has an arrow function called square", () => {
     expect(square).to.exist
   })
@@ -15,6 +16,14 @@ describe("index.js", () => {
     let x = 2
     expect(square(x)).to.equal(4)
   })
+
+
+
+
+
+
+
+
 
   it("has an arrow function called add", () => {
     expect(add).to.exist
